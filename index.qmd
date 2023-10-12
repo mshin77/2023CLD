@@ -46,15 +46,15 @@ University)</h4>
 
 <br>
 
-<h4>`Contact`: mikyung.shin\@wtamu.edu</h4>
+<h4>`Contact`: [mikyung.shin\@wtamu.edu](mikyung.shin@wtamu.edu)</h4>
 
 <h4>
 
-`Source`: https://github.com/mshin77/2023CLD
+`Source`: <https://github.com/mshin77/2023CLD>
 
 <h4>
 
-`Online slides`: https://mshin77.github.io/2023CLD
+`Online slides`: <https://mshin77.github.io/2023CLD>
 
 ::: footer
 45th International Conference on Learning Disabilities - October 12,
