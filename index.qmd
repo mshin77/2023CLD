@@ -147,8 +147,9 @@ Source: <https://doi.org/10.1177/016264342311953>
 
 -   15 fraction lessons via video conferencing programs
 
--   Adapted from the Equivalent Fraction MSTAR Interventions (The
-    University of Texas at Austin, 2011)
+-   Adapted MSTAR Interventions (The University of Texas at Austin, 2011)
+
+------------------------------------------------------------------------
 
 ### `Data Analysis and Results`
 
