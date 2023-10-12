@@ -69,15 +69,21 @@ University)</h4>
 ## `Agenda`
 
 ::: columns
-::: {.column width="70%"}
+::: {.column width="60%"}
 -   Math Wall: Using Visual Representations
+
 -   What Are Virtual Manipulatives?
+
 -   Examples and Benefits of Virtual Manipulatives
+
+-   Resources for Selecting Educational Technology Tools
+
 -   Case Study on Synchronous Online Instruction
+
 -   Meta-Analysis: Three-Level Multilevel Modeling for Single-Case Data
 :::
 
-::: {.column width="30%"}
+::: {.column width="40%"}
 ![](figures/qr.png)
 :::
 :::
@@ -94,7 +100,11 @@ Source: Number Corner (Bridges Math)
 
 ## `What Are Virtual Manipulatives?`
 
+::: columns
+::: {.column width="50%"}
 -   A dynamic visual model operational in environments like the web.
+
+-   Initially developed through Flash or Java Applet programs in 1990s.
 
 -   Adaptable in various forms for extension, transformation, and
     selection.
@@ -103,26 +113,71 @@ Source: Number Corner (Bridges Math)
     learning mathematics.
 
 -   Offers interactive opportunities for diverse mathematical learning.
+:::
+
+::: {.column width="50%"}
+-   HTML5 was released in its public version in January 2008.
+
+-   With the introduction of HTML5 web standards, became available on
+    mobile devices.
+
+![](https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png)
+:::
+:::
 
 ------------------------------------------------------------------------
 
-## `Examples of Virtual Manipulativess`
+## `Word Networks Analysis`
 
-Source:
-<https://www.thetechieteacher.net/2020/07/a-collection-of-virtual-math.html>
+Source: [Shin et al. (2023, p.
+12)](https://doi.org/https://doi.org/10.1186/s40594-023-00414-x) <br>
 
-![](https://1.bp.blogspot.com/-5Lguv0BJSUA/XxIpAtGNg9I/AAAAAAAAwXs/zPeW80tKBLAUzqo84lBHRQjIQg_eiuWFwCLcBGAsYHQ/s1600/Virtual%2BMath%2BManipulatives.png)
+::: columns
+::: {.column width="35%"}
+-   Since the 2010s, publications on the use of virtual manipulatives
+    have increased.
+-   Incorporated within problem-solving instruction or an instructional
+    sequence, such as virtual-representational-abstract (Bouck et al.,
+    23)
+:::
+
+::: {.column width="65%"}
+![](https://mshin77.github.io/math-tech-sped/index_files/figure-html/unnamed-chunk-13-1.png)
+:::
+:::
+
+------------------------------------------------------------------------
+
+## `Examples of Virtual Manipulatives`
+
+Source: [Shin et al. (2023, p.
+201)](https://doi.org/10.1177/10534512221081268)
+
+![](figures/virtual-manipulatives.png)
 
 ------------------------------------------------------------------------
 
 ## `Benefits of Virtual Manipulatives`
 
+::: columns
+::: {.column width="40%"}
 -   Content-specific visual models for targeted mathematics concepts and
     skills
 -   Feedback for students to facilitate memory retention
 -   Free and ready-to-use online materials
 -   Multiple opportunities for practice
--   Integration with other online tools (e.g., digital games, AR, VR)
+-   Integration with other online tools (e.g., digital games, augmented
+    reality, virtual reality)
+:::
+
+::: {.column width="60%"}
+Source: [GeoGebra](https://www.geogebra.org/m/agpb7bq7)
+
+Augmented Reality - Overlay on the physical learning environment
+
+![](https://www.geogebra.org/resource/yxjmgzza/cNKSOBwgH2oK4bDI/material-yxjmgzza.png)
+:::
+:::
 
 ------------------------------------------------------------------------
 
@@ -137,7 +192,7 @@ Education](https://www.commonsense.org/education/reviews/illuminations)
 
 ## `Case Study on Synchronous Online Instruction`
 
-Source: <https://doi.org/10.1177/016264342311953>
+Source: [Park et al., (2023)](https://doi.org/10.1177/01626434231195313)
 
 ![](figures/case-study.png)
 
@@ -147,21 +202,36 @@ Source: <https://doi.org/10.1177/016264342311953>
 
 -   15 fraction lessons via video conferencing programs
 
--   Adapted MSTAR Interventions (The University of Texas at Austin, 2011)
-
 ------------------------------------------------------------------------
 
-### `Data Analysis and Results`
+### `Key Lesson Features and Results`
+
+::: columns
+::: {.column width="40%"}
+-   Lessons on Equivalent Fractions, Adapted from MSTAR Interventions
+    (The University of Texas at Austin, 2011)
+-   Use of digital materials (i.e., virtual manipulatives, interactive
+    whiteboard, and online assessments)
+-   Explicit instructions (i.e., lesson sequence of Introduction,
+    Demonstration, Guided Practice, Independent Practice, and Closure)
+:::
+
+::: {.column width="60%"}
+-   Students' performance improved as the intervention was introduced;
+    however, the extent and maintenance of improvement varied according
+    to the students' participation.
 
 Park et al. (2023, p. 7)
 
 ![](figures/case-study-results.png)
+:::
+:::
 
 ------------------------------------------------------------------------
 
 ## `Meta-Analysis: Three-Level Multilevel Modeling for Single-Case Data`
 
-Source: <https://doi.org/10.1177/0014402921100715>
+Source: [Shin et al. (2021)](https://doi.org/10.1177/00144029211007150)
 
 ![](figures/meta-analysis.png)
 
@@ -184,11 +254,15 @@ Source: <https://doi.org/10.1177/0014402921100715>
 -   The levels examine repeated measurement occasions (Level 1) nested
     within cases (Level 2) and cases nested within studies (Level 3).
 
+-   Applied a piecewise linear regression approach by separately
+    modeling time trends in the baseline and intervention phases (Singer
+    & Willett, 2003).
+
 ![](figures/mlm-data-structure.png)
 
 ------------------------------------------------------------------------
 
--   Level 1 equation
+`Level 1 equation`
 
 $$
 \begin{aligned}
@@ -225,10 +299,14 @@ normally distributed with a mean of 0 and variance of $\sigma^2$.
 -   Neither student characteristics nor intervention feature--related
     moderators significantly influenced the average trend during the use
     of virtual manipulatives.
+-   `Deviations in the moderation effects corroborate the need to examine trends during the use of virtual manipulatives, even after the immediate effects have been observed (Shin et al., 2021, p. 431)`
 
 ------------------------------------------------------------------------
 
 ## `Conclusion and Future Directions`
+
+::: columns
+::: {.column width="50%"}
 
 -   The methodology for identifying evidence of interventions can vary
     based on research design and purpose.
@@ -236,4 +314,13 @@ normally distributed with a mean of 0 and variance of $\sigma^2$.
     functional relationship and intervention effects in the case study.
 -   Moderation effects can be further examined through meta-analysis of
     single-case design data or studies.
+    
+:::
+
+::: {.column width="50%"}
+
+![](https://thumbs.dreamstime.com/z/future-direction-sign-sky-background-55158716.jpg)
+
+:::
+:::
 
