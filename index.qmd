@@ -46,15 +46,18 @@ University)</h4>
 
 <br>
 
-<h4>`Contact`: [mikyung.shin\@wtamu.edu](mikyung.shin@wtamu.edu)</h4>
+<h4>
+
+`Contact`:
+<a href="mailto:mikyung.shin@wtamu.edu">mikyung.shin\@wtamu.edu</a>
+
+<h4>
+
+`Slides`: <https://mshin77.github.io/2023CLD>
 
 <h4>
 
 `Source`: <https://github.com/mshin77/2023CLD>
-
-<h4>
-
-`Online slides`: <https://mshin77.github.io/2023CLD>
 
 ::: footer
 45th International Conference on Learning Disabilities - October 12,
@@ -214,10 +217,10 @@ normally distributed with a mean of 0 and variance of $\sigma^2$.
 ### `Key Findings`
 
 -   Both the average immediate effect and trend during the intervention
-    were statistically significant. - The average immediate effect
-    varied significantly by student grade, disability type, developer,
-    device, type of virtual manipulative, and visual model embedded in
-    virtual manipulatives.
+    were statistically significant.
+-   The average immediate effect varied significantly by student grade,
+    disability type, developer, device, type of virtual manipulative,
+    and visual model embedded in virtual manipulatives.
 -   Neither student characteristics nor intervention feature--related
     moderators significantly influenced the average trend during the use
     of virtual manipulatives.
