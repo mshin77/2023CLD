@@ -1,0 +1,238 @@
+---
+format: 
+  revealjs:
+    theme: ["theme/ppt-theme.scss"]
+    transition: slide
+    transition-speed: fast
+    slide-number: c/t
+    logo: ""
+    code-copy: true
+    center-title-slide: false
+    chalkboard: 
+      buttons: true
+    code-fold: true
+    code-overflow: scroll
+    code-link: true
+    highlight-style: a11y
+    touch: true
+    controls: true
+    hash-type: number
+    hash-one-based-index: true
+    slide-tone: false
+linestretch: 1.5
+width: 1024 
+height: 768
+execute: 
+  eval: true
+  echo: true
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+<br> <br>
+
+<h1>Case Study and Meta-Analysis of the Use of Virtual
+Manipulatives</h1>
+
+<br>
+
+<h4>`Mikyung Shin` (Assistant Professor, West Texas A&M University)</h4>
+
+<h4>`Jiyeon Park` (Assistant Professor, Eastern Kentucky
+University)</h4>
+
+<h4>`Kimberly Seale` (Special Education Teacher, Model Lab School)</h4>
+
+<br>
+
+<h4>`Contact`: mikyung.shin\@wtamu.edu</h4>
+
+<h4>
+
+`Source`: https://github.com/mshin77/2023CLD
+
+<h4>
+
+`Online slides`: https://mshin77.github.io/2023CLD
+
+::: footer
+45th International Conference on Learning Disabilities - October 12,
+2023
+:::
+
+------------------------------------------------------------------------
+
+## `Agenda`
+
+::: columns
+::: {.column width="70%"}
+-   Math Wall: Using Visual Representations
+-   What Are Virtual Manipulatives?
+-   Examples and Benefits of Virtual Manipulatives
+-   Case Study on Synchronous Online Instruction
+-   Meta-Analysis: Three-Level Multilevel Modeling for Single-Case Data
+:::
+
+::: {.column width="30%"}
+![](figures/qr.png)
+:::
+:::
+
+------------------------------------------------------------------------
+
+## `Math Wall: Using Visual Representations`
+
+Source: Number Corner (Bridges Math)
+
+![](figures/number-corner.png)
+
+------------------------------------------------------------------------
+
+## `What Are Virtual Manipulatives?`
+
+-   A dynamic visual model operational in environments like the web.
+
+-   Adaptable in various forms for extension, transformation, and
+    selection.
+
+-   Can be employed for conceptual understanding in teaching and
+    learning mathematics.
+
+-   Offers interactive opportunities for diverse mathematical learning.
+
+------------------------------------------------------------------------
+
+## `Examples of Virtual Manipulativess`
+
+Source:
+<https://www.thetechieteacher.net/2020/07/a-collection-of-virtual-math.html>
+
+![](https://1.bp.blogspot.com/-5Lguv0BJSUA/XxIpAtGNg9I/AAAAAAAAwXs/zPeW80tKBLAUzqo84lBHRQjIQg_eiuWFwCLcBGAsYHQ/s1600/Virtual%2BMath%2BManipulatives.png)
+
+------------------------------------------------------------------------
+
+## `Benefits of Virtual Manipulatives`
+
+-   Content-specific visual models for targeted mathematics concepts and
+    skills
+-   Feedback for students to facilitate memory retention
+-   Free and ready-to-use online materials
+-   Multiple opportunities for practice
+-   Integration with other online tools (e.g., digital games, AR, VR)
+
+------------------------------------------------------------------------
+
+## `Resources for Selecting Educational Technology Tools`
+
+Source: [Common Sense
+Education](https://www.commonsense.org/education/reviews/illuminations)
+
+![](figures/common-sense-education.png)
+
+------------------------------------------------------------------------
+
+## `Case Study on Synchronous Online Instruction`
+
+Source: <https://doi.org/10.1177/016264342311953>
+
+![](figures/case-study.png)
+
+-   Three fifth-grade students with learning disabilities
+
+-   Employing a multiple probe across participants single-case design
+
+-   15 fraction lessons via video conferencing programs
+
+-   Adapted from the Equivalent Fraction MSTAR Interventions (The
+    University of Texas at Austin, 2011)
+
+### `Data Analysis and Results`
+
+Park et al. (2023, p. 7)
+
+![](figures/case-study-results.png)
+
+------------------------------------------------------------------------
+
+## `Meta-Analysis: Three-Level Multilevel Modeling for Single-Case Data`
+
+Source: <https://doi.org/10.1177/0014402921100715>
+
+![](figures/meta-analysis.png)
+
+-   35 studies published since 2000 on the effects of using virtual
+    manipulatives for students with disabilities
+
+-   Case-level variables: grade and disability
+
+-   Study-level variables: pre-training purpose, Instructional method,
+    type of virtual manipulative, Visual model
+
+------------------------------------------------------------------------
+
+### `Multilevel Data Structure`
+
+-   Single-case design data are hierarchically structured and can be
+    displayed using three-level multilevel modeling (Baek et al., 2022;
+    Moeyaert et al., 2021; Pustejovsky & Ferron, 2017).
+
+-   The levels examine repeated measurement occasions (Level 1) nested
+    within cases (Level 2) and cases nested within studies (Level 3).
+
+![](figures/mlm-data-structure.png)
+
+------------------------------------------------------------------------
+
+-   Level 1 equation
+
+$$
+\begin{aligned}
+Y_{i j k}=& \beta_{0 j k}+\beta_{1 j k} \text { Intervention }_{i j k} \\
+&+\beta_{2 j k} \text { Time }_{i j k}^{\prime} \times \text { Intervention }_{i j k}+e_{i j k}\\
+& \text { with } e_{i j k} \sim N\left(0, \Sigma_e\right)
+\end{aligned}
+$$
+
+$y_{i j k}$ = mathematical accuracy at the measurement occasion, $i$ th
+$(I=0,1, \ldots I)$, for the $j$th case$(j=1,2, \ldots J)$ in study $k$;
+$\beta_{0 j k}$ = baseline level; $\beta_{1 j k}$ = change in level when
+the intervention phase starts (immediate effect); $\beta_{2 j k}$ =
+change in slope between the baseline and the intervention phase; and
+$e_{i j k}$ is an error term that is assumed to be independent and is
+normally distributed with a mean of 0 and variance of $\sigma^2$.
+
+-   Random effects of immediate outcomes and trends during the use of
+    virtual manipulatives were examined across various cases and
+    studies.
+
+-   The interactions between each intervention effect and its moderating
+    variables were investigated.
+
+------------------------------------------------------------------------
+
+### `Key Findings`
+
+-   Both the average immediate effect and trend during the intervention
+    were statistically significant. - The average immediate effect
+    varied significantly by student grade, disability type, developer,
+    device, type of virtual manipulative, and visual model embedded in
+    virtual manipulatives.
+-   Neither student characteristics nor intervention feature--related
+    moderators significantly influenced the average trend during the use
+    of virtual manipulatives.
+
+------------------------------------------------------------------------
+
+## `Conclusion and Future Directions`
+
+-   The methodology for identifying evidence of interventions can vary
+    based on research design and purpose.
+-   Visual analysis of graphical data is necessary to validate the
+    functional relationship and intervention effects in the case study.
+-   Moderation effects can be further examined through meta-analysis of
+    single-case design data or studies.
+
+------------------------------------------------------------------------
+
+![](https://media.istockphoto.com/id/1397892955/photo/thank-you-message-for-card-presentation-business-expressing-gratitude-acknowledgment-and.webp?b=1&s=170667a&w=0&k=20&c=ysUdn1bl5AiFnhQStdL0viuuQ_9mUriOrdYqU_c7rNg=){width="312"}
